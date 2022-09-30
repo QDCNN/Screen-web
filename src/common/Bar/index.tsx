@@ -1,7 +1,7 @@
 import * as echarts from 'echarts'
 import ReactEcharts from "echarts-for-react";
 import { useEffect, useRef } from 'react'
-export const Lux1 =() =>{
+export const Bar =() =>{
 
     const option = {
       title: {
@@ -129,10 +129,10 @@ export const Lux1 =() =>{
     };
  
   return (
-    <div>
-      {/* 准备一个挂载节点 */}
-      <ReactEcharts option={option} className="w-5/12 h-3/4 m-auto"/>
-      {/* <div ref={domRef}></div> */}
-    </div>
+    // <div className='h-full'>
+      // {/* 准备一个挂载节点 */}
+      <ReactEcharts option={option} style={{height:'80%'}}/>
+      // {/* <div ref={domRef}></div> */}
+    // </div>
   )
 }

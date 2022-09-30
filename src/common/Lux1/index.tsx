@@ -84,10 +84,10 @@ export const Lux1 =() =>{
     }
  
   return (
-    <div>
-      {/* 准备一个挂载节点 */}
-      <ReactEcharts option={option} className="w-5/12 h-3/4 m-auto"/>
-      {/* <div ref={domRef}></div> */}
-    </div>
+    // <div>
+      // {/* 准备一个挂载节点 */}
+      <ReactEcharts option={option} className="w-5/12 h-2/4 m-auto"/>
+      // {/* <div ref={domRef}></div> */}
+    // </div>
   )
 }

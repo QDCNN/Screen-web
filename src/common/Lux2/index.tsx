@@ -134,9 +134,9 @@ export const Lux2 =() => {
     chartInit() 
   },[])
   return (
-    <div>
-      {/* 准备一个挂载节点 */}
-      <div ref={domRef}  style={{width:'100%',height:'100%'}}></div>
-    </div>
+    // <div>
+      // {/* 准备一个挂载节点 */}
+      <div ref={domRef}  style={{width:'80%',height:'80%',margin:'0 auto'}}></div>
+    // </div>
   )
 }

@@ -7,7 +7,7 @@ import middle_b from '../../assets/middle_b.png'
 
 import { Lux1 } from '../../common/Lux1/index.tsx'
 import { Lux2 } from '../../common/Lux2/index.tsx'
-
+import { Bar } from '../../common/bar/index.tsx'
 
 
 export const Format1= () => {
@@ -23,8 +23,9 @@ export const Format1= () => {
                 <div className='bg-center bg-contain bg-no-repeat bg-red-400'>
                 </div>
                 <div className='col-span-2 row-span-3 bg-auto bg-center bg-no-repeat' style={{backgroundImage:`url(${top_middleImage})`}}></div>
-                <div className='bg-center bg-contain bg-no-repeat' style={{backgroundImage:`url(${left_rightImage})`}}>
-                    <Lux2 class="w-10/12 h-full"/>
+                <div className='h-full bg-center bg-contain bg-no-repeat' style={{backgroundImage:`url(${left_rightImage})`}}>
+                    {/* <Bar /> */}
+                    <Lux1 />
                 </div>
                 <div className='bg-center bg-contain bg-no-repeat' style={{backgroundImage:`url(${left_rightImage})`}}></div>
                 <div className='bg-center bg-contain bg-no-repeat' style={{backgroundImage:`url(${left_rightImage})`}}></div>
